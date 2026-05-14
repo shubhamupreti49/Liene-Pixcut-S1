@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixCut S1 — Sticker Machine Guide</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── HERO ───────────────────────────────────────── -->
+  <header class="hero">
+    <div class="hero__noise"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Liene PixCut S1</p>
+      <h1 class="hero__title">Make Your<br /><em>Own Stickers.</em></h1>
+      <p class="hero__sub">A step-by-step guide for first-time users&nbsp;·&nbsp;Takes about 2–5 minutes</p>
+      <a href="#steps" class="btn btn--primary">Start the Guide ↓</a>
+    </div>
+    <div class="hero__badges">
+      <span class="badge">300 DPI Print</span>
+      <span class="badge">AI Auto-Cut</span>
+      <span class="badge">Bluetooth</span>
+      <span class="badge">Waterproof</span>
+    </div>
+  </header>
+
+  <!-- ── QUICK SPECS ────────────────────────────────── -->
+  <section class="specs">
+    <div class="container specs__grid">
+      <div class="spec-card">
+        <span class="spec-card__icon">📄</span>
+        <p class="spec-card__label">Paper Size</p>
+        <p class="spec-card__val">4×6" or 4×7" only</p>
+      </div>
+      <div class="spec-card">
+        <span class="spec-card__icon">🎨</span>
+        <p class="spec-card__label">Print Tech</p>
+        <p class="spec-card__val">Thermal Dye-Sublimation</p>
+      </div>
+      <div class="spec-card">
+        <span class="spec-card__icon">🔵</span>
+        <p class="spec-card__label">Connection</p>
+        <p class="spec-card__val">Bluetooth (iOS & Android)</p>
+      </div>
+      <div class="spec-card">
+        <span class="spec-card__icon">⏱</span>
+        <p class="spec-card__label">Print Time</p>
+        <p class="spec-card__val">1–5 minutes per sheet</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STEP GUIDE ─────────────────────────────────── -->
+  <section class="steps-section" id="steps">
+    <div class="container">
+      <h2 class="section-title">Step-by-Step Guide</h2>
+      <p class="section-sub">Follow each step in order. Tap a step to expand it.</p>
+
+      <div class="steps-wrapper">
+        <!-- progress bar -->
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="progressFill"></div>
+        </div>
+
+        <!-- STEP 1 -->
+        <article class="step" data-step="1">
+          <button class="step__header" aria-expanded="false">
+            <span class="step__num">01</span>
+            <div class="step__meta">
+              <h3 class="step__title">Check the Machine & Paper</h3>
+              <p class="step__preview">Make sure the sticker paper is loaded correctly</p>
+            </div>
+            <span class="step__arrow">›</span>
+          </button>
+          <div class="step__body">
+            <p>Before anything else, verify that the machine is physically ready:</p>
+            <ul>
+              <li>The machine only accepts <strong>4×6" or 4×7" sticker/photo paper</strong> — no other sizes will work.</li>
+              <li>Open the paper cassette slot (located at the bottom of the machine) and confirm paper is loaded.</li>
+              <li>If the cassette is missing, pull it out from the back port, align the paper so the roller can feed it in, and reinsert until you hear a click.</li>
+            </ul>
+            <div class="callout callout--info">
+              <span>ℹ️</span>
+              <p>The machine prints <strong>layer by layer</strong> using thermal dye-sublimation — yellow first, then magenta, then cyan, then lamination. The paper moves in and out during this process. <strong>Do not pull it out.</strong></p>
+            </div>
+          </div>
+        </article>
+
+        <!-- STEP 2 -->
+        <article class="step" data-step="2">
+          <button class="step__header" aria-expanded="false">
+            <span class="step__num">02</span>
+            <div class="step__meta">
+              <h3 class="step__title">Download the Liene Photo App</h3>
+              <p class="step__preview">Available on iOS and Android</p>
+            </div>
+            <span class="step__arrow">›</span>
+          </button>
+          <div class="step__body">
+            <p>You need the <strong>Liene Photo App</strong> to design and send your sticker to the machine.</p>
+            <ul>
+              <li>Search <strong>"Liene Photo"</strong> in the App Store (iOS) or Google Play (Android).</li>
+              <li>The app is free to download.</li>
+              <li>If your device is not compatible, ask a <strong>Tech Tutor</strong> for assistance — they may be able to help you use an alternative device.</li>
+            </ul>
+            <div class="callout callout--warning">
+              <span>⚠️</span>
+              <p>When prompted, <strong>allow Bluetooth and Location permissions</strong>. Both are required for stable pairing with the machine. The app will not connect without them.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- STEP 3 -->
+        <article class="step" data-step="3">
+          <button class="step__header" aria-expanded="false">
+            <span class="step__num">03</span>
+            <div class="step__meta">
+              <h3 class="step__title">Design Your Sticker</h3>
+              <p class="step__preview">Use templates, upload a photo, or design from scratch</p>
+            </div>
+            <span class="step__arrow">›</span>
+          </button>
+          <div class="step__body">
+            <p>The app offers several creative options — pick the one that fits your idea:</p>
+            <div class="option-cards">
+              <div class="option-card">
+                <p class="option-card__title">🗂 Use a Template</p>
+                <p>Browse 10,000+ free built-in templates across themes, holidays, and styles. Customise text and colours directly in the app.</p>
+              </div>
+              <div class="option-card">
+                <p class="option-card__title">🖼 Upload Your Own Image</p>
+                <p>Import a PNG, JPG, or HEIC file from your camera roll. For best results, use a <strong>PNG with a transparent background</strong> so the AI cutter follows your exact shape.</p>
+              </div>
+              <div class="option-card">
+                <p class="option-card__title">✏️ Design from Scratch</p>
+                <p>Use the in-app design tools or third-party apps like Canva, then export and import the image. The AI will auto-detect edges for cutting.</p>
+              </div>
+              <div class="option-card">
+                <p class="option-card__title">🤖 AI Lab</p>
+                <p>Upload a photo and pick an AI style — anime, fantasy hero, holiday illustration — and print the result as a unique sticker.</p>
+              </div>
+            </div>
+            <div class="callout callout--info">
+              <span>ℹ️</span>
+              <p>For non-transparent images, use the <strong>AI Matting tool</strong> inside the app to remove the background automatically before printing.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- STEP 4 -->
+        <article class="step" data-step="4">
+          <button class="step__header" aria-expanded="false">
+            <span class="step__num">04</span>
+            <div class="step__meta">
+              <h3 class="step__title">Connect via Bluetooth</h3>
+              <p class="step__preview">Turn on the machine and pair with the app</p>
+            </div>
+            <span class="step__arrow">›</span>
+          </button>
+          <div class="step__body">
+            <ol>
+              <li>Press and hold the <strong>power button for 3 seconds</strong>. The white LED ring will switch to a <strong>blinking blue</strong> light — this means it's ready to pair.</li>
+              <li>Make sure Bluetooth is enabled on your phone.</li>
+              <li>Inside the Liene Photo App, follow the setup prompts and tap <strong>Search for Device</strong>.</li>
+              <li>The machine will appear in the list as <strong>"PixCut S1"</strong> — tap it to pair.</li>
+              <li>Once connected, the blue light will stop blinking and stay solid.</li>
+            </ol>
+            <div class="callout callout--warning">
+              <span>⚠️</span>
+              <p>The machine can only be paired to <strong>one device at a time</strong>. If someone else is connected, the machine won't appear in your list. Ask them to disconnect first, or wait your turn.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- STEP 5 -->
+        <article class="step" data-step="5">
+          <button class="step__header" aria-expanded="false">
+            <span class="step__num">05</span>
+            <div class="step__meta">
+              <h3 class="step__title">Confirm Paper & Send to Print</h3>
+              <p class="step__preview">Review your design and hit print</p>
+            </div>
+            <span class="step__arrow">›</span>
+          </button>
+          <div class="step__body">
+            <p>Before printing, double-check a few things in the app:</p>
+            <ul>
+              <li>Make sure your <strong>canvas size matches the paper</strong> (4×6" or 4×7"). Mismatched dimensions are the most common cause of paper jams.</li>
+              <li>Use the <strong>Preview</strong> option to see how cut lines will appear around your sticker.</li>
+              <li>Tap <strong>Print</strong> and confirm the connection to the PixCut S1.</li>
+            </ul>
+            <div class="callout callout--info">
+              <span>ℹ️</span>
+              <p>The machine features <strong>automatic paper feeding</strong> — once you send the print job, it will handle everything. No need to manually feed the paper.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- STEP 6 -->
+        <article class="step" data-step="6">
+          <button class="step__header" aria-expanded="false">
+            <span class="step__num">06</span>
+            <div class="step__meta">
+              <h3 class="step__title">Wait — Do Not Disturb the Machine</h3>
+              <p class="step__preview">Printing takes 1–5 minutes. Be patient!</p>
+            </div>
+            <span class="step__arrow">›</span>
+          </button>
+          <div class="step__body">
+            <p>The PixCut S1 prints in <strong>four separate passes</strong>:</p>
+            <div class="print-layers">
+              <div class="layer" style="--clr: #FFD700">🟡 Layer 1 — Yellow</div>
+              <div class="layer" style="--clr: #FF6B9D">🔴 Layer 2 — Magenta</div>
+              <div class="layer" style="--clr: #4FC3F7">🔵 Layer 3 — Cyan</div>
+              <div class="layer" style="--clr: #E0E0E0">🏳 Layer 4 — Lamination (protective coat)</div>
+            </div>
+            <p style="margin-top:1rem">You will see the paper slide in and out between each layer — <strong>this is completely normal</strong>. After printing, the machine uses a 0.1mm blade to <strong>kiss-cut</strong> your design (cuts the sticker layer, not the backing).</p>
+            <div class="callout callout--danger">
+              <span>🚫</span>
+              <p><strong>Do NOT pull the paper out</strong> while it is still printing. Do NOT close or exit the app. Wait for the app to show a <strong>"Print Completed"</strong> notification before removing your sticker.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- STEP 7 -->
+        <article class="step" data-step="7">
+          <button class="step__header" aria-expanded="false">
+            <span class="step__num">07</span>
+            <div class="step__meta">
+              <h3 class="step__title">Collect Your Sticker 🎉</h3>
+              <p class="step__preview">Remove the paper once the app says "Completed"</p>
+            </div>
+            <span class="step__arrow">›</span>
+          </button>
+          <div class="step__body">
+            <p>Once the app displays <strong>"Print Completed"</strong>:</p>
+            <ul>
+              <li>The paper will have fully exited the machine — gently take it.</li>
+              <li>Your sticker is already cut — simply peel it from the backing sheet.</li>
+              <li>The sticker is <strong>waterproof, fade-resistant, and scratch-resistant</strong> thanks to the lamination layer.</li>
+              <li>If you printed multiple stickers on one sheet, remove the completed sheet before starting a new print to avoid cutting errors.</li>
+            </ul>
+            <div class="callout callout--success">
+              <span>✅</span>
+              <p>That's it! Enjoy your custom sticker. If you encounter any issues, see the FAQ below or find a <strong>Tech Tutor</strong> for help.</p>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /steps-wrapper -->
+    </div>
+  </section>
+
+  <!-- ── FAQ / TROUBLESHOOTING ──────────────────────── -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <h2 class="section-title">Troubleshooting & FAQ</h2>
+      <p class="section-sub">Tap a question to reveal the answer.</p>
+
+      <div class="faq-list">
+
+        <details class="faq-item">
+          <summary class="faq-item__q">The machine won't connect / doesn't appear in Bluetooth</summary>
+          <div class="faq-item__a">
+            <ul>
+              <li>Make sure the power button was held for <strong>3 full seconds</strong> until the LED blinks blue.</li>
+              <li>Check that <strong>Bluetooth is enabled</strong> on your phone and that the Liene app has Bluetooth <em>and</em> Location permissions.</li>
+              <li>The machine can only connect to <strong>one device at a time</strong>. If another student is connected, wait for them to disconnect.</li>
+              <li>Try turning the machine off and on again, then search for it fresh in the app.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-item__q">The paper got jammed inside the machine</summary>
+          <div class="faq-item__a">
+            <ul>
+              <li>This is usually caused by using the <strong>wrong canvas size</strong> in the app. Always set your design to 4×6" or 4×7" — not a custom size.</li>
+              <li>Do not try to force the paper out. Power off the machine and contact a <strong>Tech Tutor</strong>.</li>
+              <li>Ensure paper is loaded straight and flat in the cassette before printing.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-item__q">The app crashed or froze during printing</summary>
+          <div class="faq-item__a">
+            <ul>
+              <li>This can happen with high memory usage. Close other apps running in the background.</li>
+              <li>Force-quit the Liene app and reopen it — it will attempt to reconnect to the machine.</li>
+              <li>If the paper is mid-print, do not remove it. Wait for the machine to finish its current layer or stop on its own.</li>
+              <li>Contact a <strong>Tech Tutor</strong> if the issue persists.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-item__q">My sticker cut didn't follow the right shape</summary>
+          <div class="faq-item__a">
+            <ul>
+              <li>For best cutting results, upload a <strong>PNG file with a transparent background</strong>. The AI cutter traces the non-transparent pixels exactly.</li>
+              <li>If your image has a solid background, use the <strong>AI Matting tool</strong> in the app to remove it first.</li>
+              <li>Use the <strong>Preview</strong> button before sending to print to see exactly where cut lines will fall.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-item__q">Can I use this machine with my laptop or computer?</summary>
+          <div class="faq-item__a">
+            <p>Currently, the PixCut S1 is <strong>mobile-only</strong>. It is compatible with iOS and Android phones and tablets. A USB-C port is present on the machine for future PC support, but desktop software is not yet fully functional. Stick to the mobile app for now.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-item__q">What paper can I use? Can I use any brand?</summary>
+          <div class="faq-item__a">
+            <p>The machine is designed to work <strong>exclusively with Liene-brand 4×6" or 4×7" PET paper</strong>. Using third-party paper may result in poor print quality, paper jams, or machine damage. Paper is provided — check the supply next to the machine, or ask a Tech Tutor to restock.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-item__q">The colors look faded or banded — is something wrong?</summary>
+          <div class="faq-item__a">
+            <ul>
+              <li>Some light banding is normal with dye-sublimation printing, especially on large flat-color areas.</li>
+              <li>Make sure the <strong>ink cartridge</strong> is properly seated. The cartridge slot is on the side of the machine.</li>
+              <li>If the ink is depleted, the cartridge needs replacement — contact a <strong>Tech Tutor</strong>.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-item__q">Are the stickers actually waterproof and durable?</summary>
+          <div class="faq-item__a">
+            <p>Yes! The four-layer thermal dye-sublimation process includes an automatic lamination coat, making stickers <strong>waterproof, fade-resistant, and scratch-resistant</strong>. They work best on smooth surfaces. They may peel more easily from textured or plastic surfaces.</p>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__title">Need More Help?</p>
+        <p class="footer__text">Find a <strong>Tech Tutor</strong> at the front desk — they're here to help you with the machine, the app, or your design.</p>
+      </div>
+      <div class="footer__meta">
+        <p>Liene PixCut S1 · Model DHP700</p>
+        <p>Guide version 1.0 · Made for student use</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
